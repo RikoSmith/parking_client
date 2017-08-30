@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://104.131.95.198:8080/service/CallerService?wsdl" uri="src/conf/xml-resources/web-service-references/CallerService/wsdl/104.131.95.198_8080/service/CallerService.wsdl"/>
+    <system systemId="http://104.131.95.198:8080/service/CallerService?xsd=1" uri="src/conf/xml-resources/web-service-references/CallerService/wsdl/104.131.95.198_8080/service/CallerService.xsd_1.xsd"/>
+    <system systemId="http://104.131.95.198:8080/MiniClient/CallerService?wsdl" uri="src/conf/xml-resources/web-service-references/CallerService/wsdl/104.131.95.198_8080/MiniClient/CallerService.wsdl"/>
+    <system systemId="http://104.131.95.198:8080/MiniClient/CallerService?xsd=1" uri="src/conf/xml-resources/web-service-references/CallerService/wsdl/104.131.95.198_8080/MiniClient/CallerService.xsd_1.xsd"/>
+</catalog>
