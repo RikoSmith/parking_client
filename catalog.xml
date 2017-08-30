@@ -4,4 +4,6 @@
     <system systemId="http://104.131.95.198:8080/service/CallerService?xsd=1" uri="src/conf/xml-resources/web-service-references/CallerService/wsdl/104.131.95.198_8080/service/CallerService.xsd_1.xsd"/>
     <system systemId="http://104.131.95.198:8080/MiniClient/CallerService?wsdl" uri="src/conf/xml-resources/web-service-references/CallerService/wsdl/104.131.95.198_8080/MiniClient/CallerService.wsdl"/>
     <system systemId="http://104.131.95.198:8080/MiniClient/CallerService?xsd=1" uri="src/conf/xml-resources/web-service-references/CallerService/wsdl/104.131.95.198_8080/MiniClient/CallerService.xsd_1.xsd"/>
+    <system systemId="http://104.131.95.198:8080/park_service/ParkingService?wsdl" uri="src/conf/xml-resources/web-service-references/CallerService/wsdl/104.131.95.198_8080/park_service/ParkingService.wsdl"/>
+    <system systemId="http://104.131.95.198:8080/park_service/ParkingService?xsd=1" uri="src/conf/xml-resources/web-service-references/CallerService/wsdl/104.131.95.198_8080/park_service/ParkingService.xsd_1.xsd"/>
 </catalog>

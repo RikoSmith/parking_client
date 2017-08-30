@@ -3,8 +3,8 @@
   <services/>
   <clients>
     <client name="CallerService">
-      <wsdl-url>http://104.131.95.198:8080/MiniClient/CallerService?wsdl</wsdl-url>
-      <local-wsdl-file>104.131.95.198_8080/MiniClient/CallerService.wsdl</local-wsdl-file>
+      <wsdl-url>http://104.131.95.198:8080/park_service/ParkingService?wsdl</wsdl-url>
+      <local-wsdl-file>104.131.95.198_8080/park_service/ParkingService.wsdl</local-wsdl-file>
       <package-name>service</package-name>
       <catalog-file>catalog.xml</catalog-file>
       <wsimport-options>

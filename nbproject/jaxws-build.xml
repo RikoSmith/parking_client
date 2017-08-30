@@ -28,8 +28,8 @@
     </target>
     <target name="wsimport-client-CallerService" depends="wsimport-init">
         <mkdir dir="${build.generated.dir}/jax-wsCache/CallerService"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/CallerService" destdir="${build.generated.dir}/jax-wsCache/CallerService" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/CallerService/wsdl/104.131.95.198_8080/MiniClient/CallerService.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://104.131.95.198:8080/MiniClient/CallerService?wsdl" xnocompile="true" xendorsed="true">
-            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/CallerService/wsdl/104.131.95.198_8080/MiniClient/CallerService.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/CallerService" destdir="${build.generated.dir}/jax-wsCache/CallerService" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/CallerService/wsdl/104.131.95.198_8080/park_service/ParkingService.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://104.131.95.198:8080/MiniClient/CallerService?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/CallerService/wsdl/104.131.95.198_8080/park_service/ParkingService.wsdl"/>
             <produces dir="${build.generated.dir}/jax-wsCache/CallerService"/>
         </wsimport>
         <copy todir="${build.generated.sources.dir}/jax-ws">
